@@ -7,11 +7,18 @@
     max-width: 1800px;
     margin: 0 auto;
 }
-
+.container1200{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
 .row{
     display: flex;
 }
-
+.row1200{
+    height: 100%;
+    background-color: rgb(224, 131, 224);
+}
 .col20{
     width: calc(100%/5);
     margin:15px 0; 
@@ -22,8 +29,14 @@
     margin:15px 0;  
       
 }
-
-
+.col40{
+    width: calc(100%/5*2);
+    margin:15px 0;  
+      
+}
+.height400{
+    height: 400px;
+}
 p{
     padding: 7px;
     font-size: 20px;
@@ -43,8 +56,12 @@ p{
 .bgcolor-azzurro{
     background-color: rgb(135, 213, 236);
 }
-
-
+.bgcolor-pink{
+    background-color: pink;
+}
+.bgcolor-gray{
+    background-color: gray;
+}
 .padding50{
     padding: 50px;
 }
