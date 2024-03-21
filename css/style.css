@@ -19,23 +19,40 @@
     height: 100%;
     background-color: rgb(224, 131, 224);
 }
+.row5{
+    height: 100%;
+    background-color: rgb(5, 131, 42);
+
+}
 .col20{
     width: calc(100%/5);
-    margin:15px 0; 
+     
     
+}
+.margin{
+    margin: 15px 0;
 }
 .col60{
     width: calc(100%/5*3);
-    margin:15px 0;  
+    
       
 }
 .col40{
     width: calc(100%/5*2);
-    margin:15px 0;  
       
+      
+}
+.col33{
+    width: calc(100%/6*2);
+}
+.col16{
+    width: calc(100%/6);  
 }
 .height400{
     height: 400px;
+}
+.height600{
+    height: 600px;
 }
 p{
     padding: 7px;
@@ -50,6 +67,9 @@ p{
 .border-doashed{
     border:2px dashed black;
 }
+.border-doashed-white{
+    border:2px dashed white;
+}
 .bgcolor-giallo{
     background-color: rgb(224, 204, 24);
 }
@@ -61,6 +81,9 @@ p{
 }
 .bgcolor-gray{
     background-color: gray;
+}
+.bgcolor-black{
+    background-color: rgb(27, 26, 26);
 }
 .padding50{
     padding: 50px;
