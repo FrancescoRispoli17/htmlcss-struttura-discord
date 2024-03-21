@@ -24,6 +24,11 @@
     background-color: rgb(5, 131, 42);
 
 }
+.rowfoot{
+    display: flex;
+    gap: 90%;
+    background-color: rgb(117, 226, 103);
+}
 .col20{
     width: calc(100%/5);
      
@@ -48,6 +53,10 @@
 .col16{
     width: calc(100%/6);  
 }
+.col10{
+    width: calc(100%/20);
+}
+
 .height400{
     height: 400px;
 }
@@ -87,4 +96,7 @@ p{
 }
 .padding50{
     padding: 50px;
+}
+.paddingfoot{
+    padding: 15px 0;
 }
